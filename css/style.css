@@ -1,8 +1,41 @@
 header {
     background-color: black;
-    color: pink;
+    color: #EA8677;
     text-align: center;
+}
+div.marco_arriba{
+	background-color: black;
+	color:#EA8677;
+	
+}
+
+div.mensaje{
+		height:100px;
+		font-size:35px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+}
+div.enlaces{
+    padding:5px;
+    background-color:#EA8677;
+    display:flex;
+    padding:15px;
+    gap: 30px;
+}
+
+#sales-table tr th { 
+    background-color:silver;
+    color:white; 
+}
+
+#sales-table tr td { 
+    background-color:#EA8677;
+    color:black; 
 }
 footer {
     background-color: grey;
+    align-items: center;
+    text-align: center;
 }
